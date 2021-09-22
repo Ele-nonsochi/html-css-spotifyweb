@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    color: white;
+}
+
+h3 h4{
+    color: #878787;
+}
+
+.content-page{
+    background-color: #141922;
+    height: calc(100hv - 68px);
+    display: flex;
+}
+
+.side-bar{
+    width: 90px;
+    height: 500px;
+    flex-shrink: 0;
+    background-color: black;
+}
+
+.content-elements{
+    width: calc(100% - 90px);
+}
+
+.top-bar{
+    height: 64px;
+    width: 100%;
+    background-color: #a2a9b1;
+    z-index: 99;
+}
+
+.play-bar{
+    height: 68px;
+    background-color: #282828;
+}
