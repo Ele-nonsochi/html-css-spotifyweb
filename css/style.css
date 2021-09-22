@@ -53,6 +53,7 @@ h5{
 
 .container-option-music{
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .contantainer-box-music{
@@ -101,9 +102,10 @@ h5{
 }
 
 .album{
-    width: calc(100% / 2 - 14px);
+    width:calc(100% / 2 - 24px);
     flex-wrap:wrap;
-    gap: 4px;
+    gap: 10px;
+    display: inline-block;
 }
 
 img{
